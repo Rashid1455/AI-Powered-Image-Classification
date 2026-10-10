@@ -1,0 +1,36 @@
+{
+  "train": {
+    "n": 2617,
+    "fraction": 0.714,
+    "class_counts": {
+      "daisy": 452,
+      "dandelion": 640,
+      "roses": 457,
+      "sunflowers": 498,
+      "tulips": 570
+    }
+  },
+  "val": {
+    "n": 525,
+    "fraction": 0.143,
+    "class_counts": {
+      "daisy": 91,
+      "dandelion": 129,
+      "roses": 92,
+      "sunflowers": 99,
+      "tulips": 114
+    }
+  },
+  "test": {
+    "n": 524,
+    "fraction": 0.143,
+    "class_counts": {
+      "daisy": 90,
+      "dandelion": 129,
+      "roses": 91,
+      "sunflowers": 100,
+      "tulips": 114
+    }
+  },
+  "seed": 42
+}

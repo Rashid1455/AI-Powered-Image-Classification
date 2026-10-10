@@ -1,0 +1,46 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- Environments ---
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Data: never commit the dataset (re-download with src.data.download) ---
+data/raw/
+data/processed/
+data/splits/
+!data/exclusions.csv
+
+# --- Models: commit only the final checkpoints listed below ---
+models/*
+!models/mobilenet_v2.pt
+!models/README.md
+
+# --- Logs / caches ---
+*.log
+reports/logs/
+.cache/
+
+# --- Secrets ---
+.streamlit/secrets.toml
+kaggle.json
+
+# --- OS / editors ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

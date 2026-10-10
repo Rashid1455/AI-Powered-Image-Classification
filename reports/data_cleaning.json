@@ -1,0 +1,36 @@
+{
+  "files_scanned": 3670,
+  "files_kept": 3666,
+  "removed_counts": {
+    "unreadable_or_truncated": 0,
+    "too_small": 0,
+    "duplicate_label_conflict": 2,
+    "exact_duplicate": 2
+  },
+  "removed_total": 4,
+  "removed_files": {
+    "unreadable_or_truncated": [],
+    "too_small": [],
+    "duplicate_label_conflict": [
+      "data/raw/flower_photos/roses/15922772266_1167a06620.jpg",
+      "data/raw/flower_photos/tulips/15922772266_1167a06620.jpg"
+    ],
+    "exact_duplicate": [
+      "data/raw/flower_photos/sunflowers/15066430311_fb57fa92b0_m.jpg",
+      "data/raw/flower_photos/sunflowers/15072973261_73e2912ef2_n.jpg"
+    ]
+  },
+  "near_duplicate_groups": 15,
+  "images_in_near_duplicate_groups": 30,
+  "near_duplicate_groups_with_mixed_labels": [],
+  "colour_modes": {
+    "RGB": 3666
+  },
+  "class_counts": {
+    "daisy": 633,
+    "dandelion": 898,
+    "roses": 640,
+    "sunflowers": 697,
+    "tulips": 798
+  }
+}

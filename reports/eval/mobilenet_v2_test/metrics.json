@@ -1,0 +1,111 @@
+{
+  "run": "mobilenet_v2",
+  "arch": "mobilenet_v2",
+  "split": "test",
+  "n": 524,
+  "temperature": 1.3037961721420288,
+  "accuracy": 0.9236641221374046,
+  "macro": {
+    "precision": 0.925680647987966,
+    "recall": 0.917656658043439,
+    "f1": 0.9205532650003923
+  },
+  "weighted": {
+    "precision": 0.9248430530462637,
+    "recall": 0.9236641221374046,
+    "f1": 0.9232118263454463
+  },
+  "ece": 0.018977240922341806,
+  "uncertain_threshold": 0.6,
+  "coverage_at_threshold": 0.9484732824427481,
+  "accuracy_when_confident": 0.9476861167002012,
+  "per_class": {
+    "daisy": {
+      "precision": 0.9634146341463414,
+      "recall": 0.8777777777777778,
+      "f1-score": 0.9186046511627907,
+      "support": 90.0
+    },
+    "dandelion": {
+      "precision": 0.9473684210526315,
+      "recall": 0.9767441860465116,
+      "f1-score": 0.9618320610687023,
+      "support": 129.0
+    },
+    "roses": {
+      "precision": 0.9156626506024096,
+      "recall": 0.8351648351648352,
+      "f1-score": 0.8735632183908046,
+      "support": 91.0
+    },
+    "sunflowers": {
+      "precision": 0.9320388349514563,
+      "recall": 0.96,
+      "f1-score": 0.9458128078817734,
+      "support": 100.0
+    },
+    "tulips": {
+      "precision": 0.8699186991869918,
+      "recall": 0.9385964912280702,
+      "f1-score": 0.9029535864978903,
+      "support": 114.0
+    },
+    "accuracy": 0.9236641221374046,
+    "macro avg": {
+      "precision": 0.925680647987966,
+      "recall": 0.917656658043439,
+      "f1-score": 0.9205532650003923,
+      "support": 524.0
+    },
+    "weighted avg": {
+      "precision": 0.9248430530462637,
+      "recall": 0.9236641221374046,
+      "f1-score": 0.9232118263454463,
+      "support": 524.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      79,
+      6,
+      1,
+      2,
+      2
+    ],
+    [
+      1,
+      126,
+      0,
+      2,
+      0
+    ],
+    [
+      1,
+      0,
+      76,
+      2,
+      12
+    ],
+    [
+      0,
+      1,
+      1,
+      96,
+      2
+    ],
+    [
+      1,
+      0,
+      5,
+      1,
+      107
+    ]
+  ],
+  "classes": [
+    "daisy",
+    "dandelion",
+    "roses",
+    "sunflowers",
+    "tulips"
+  ]
+}

@@ -1,0 +1,25 @@
+# Tested with Python 3.14.7 on Windows 10 (CPU only).
+# PyTorch CPU wheels come from the PyTorch index; on a CUDA machine, drop the
+# "+cpu" suffix and use the matching CUDA index from https://pytorch.org.
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.14.1+cpu
+torchvision==0.29.1+cpu
+
+numpy==2.5.2
+pandas==3.0.6
+pillow==12.3.0
+opencv-python-headless==5.0.0.93
+ImageHash==4.3.2
+matplotlib==3.11.2
+seaborn==0.13.2
+scikit-learn==1.9.1
+scipy==1.18.1
+PyYAML==6.0.3
+tqdm==4.70.1
+streamlit==1.65.0
+
+# notebooks
+jupyter==1.1.1
+ipykernel==7.4.0
+nbconvert==7.17.1
+nbformat==5.11.1

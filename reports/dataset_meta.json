@@ -1,0 +1,21 @@
+{
+  "name": "TensorFlow Flowers (flower_photos)",
+  "url": "https://storage.googleapis.com/download.tensorflow.org/example_images/flower_photos.tgz",
+  "licence": "CC BY 2.0 (per-image attribution in LICENSE.txt)",
+  "accessed": "2026-10-10",
+  "classes": [
+    "daisy",
+    "dandelion",
+    "roses",
+    "sunflowers",
+    "tulips"
+  ],
+  "counts": {
+    "daisy": 633,
+    "dandelion": 898,
+    "roses": 641,
+    "sunflowers": 699,
+    "tulips": 799
+  },
+  "total": 3670
+}
